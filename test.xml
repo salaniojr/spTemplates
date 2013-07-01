@@ -1,9 +1,9 @@
-<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><templates><template autoinsert=\"true\" context=\"java\" deleted=\"false\" description=\"sp doc\" enabled=\"true\" name=\"spDoc\">/**&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="sp doc" enabled="true" name="spDoc">/**&#13;
  * ${objetivo}&#13;
  * @param ${param}&#13;
  * @return ${return}&#13;
  */&#13;
-</template><template autoinsert=\"true\" context=\"java\" deleted=\"false\" description=\"Softplan Method\" enabled=\"true\" name=\"spMethod\">public void softplanMethod() {&#13;
+</template><template autoinsert="true" context="java" deleted="false" description="Softplan Method" enabled="true" name="spMethod">public void softplanMethod() {&#13;
 	${Tipo:elemType(a)} variavel = new ${Tipo:elemType(a)}();&#13;
 	&#13;
 	${type:newType(java.util.Iterator)} iter = null;&#13;
