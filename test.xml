@@ -50,6 +50,12 @@
      * ${objetivo}
      * @precondition ${precondition}
      * @postcondition ${postcondition}#{sp_parameters}
-     * @rule ${rule}#{sp_return}
+     * @rule ${rule}#{sp_return}#{sp_throws}
      */</template>
+  <template autoinsert="true" context="java" deleted="false" description="Softplan JavaDoc" dynamic="false" enabled="true" name="myTemplate">
+    /**
+     * ${objetivo}
+     * ${nome}
+     */
+   </template>
 </templates>
