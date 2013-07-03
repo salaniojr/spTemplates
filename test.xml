@@ -52,10 +52,13 @@
      * @postcondition ${postcondition}#{sp_parameters}
      * @rule ${rule}#{sp_return}#{sp_throws}
      */</template>
-  <template autoinsert="true" context="java" deleted="false" description="Softplan JavaDoc" dynamic="false" enabled="true" name="myTemplate">
+  <template autoinsert="true" context="java" deleted="false" description="My description" dynamic="false" enabled="true" name="myTemplate2">
     /**
      * ${objetivo}
      * ${nome}
      */
+   </template>
+   <template autoinsert="true" context="java" deleted="false" description="My description" dynamic="false" enabled="true" name="helloWorld">
+    Hello ${world}
    </template>
 </templates>
